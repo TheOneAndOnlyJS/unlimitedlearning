@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 2%;
+}
+
+nav{
+    background-color: dodgerblue;
+}
+
+nav h1{
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container img{
+    -webkit-user-drag: none;
+}
+
+.container p {
+    color: black;
+}
+
+input{
+    width: 15%;
+    height: 5vh;
+}
+
+button{
+    background-color: dodgerblue;
+    width: 10%;
+    padding: 8px 8px;
+    border: none;
+    height: 8vh;
+}
+
+.boxes p{
+    font-size: 25px;
+    padding: 12px;
+}
+
+#input{
+    padding: 12px;
+    height: 7vh;
+    border-radius: 15px;
+    border: 2px solid dodgerblue;
+}
